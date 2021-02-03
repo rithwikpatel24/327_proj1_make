@@ -1,3 +1,4 @@
+cc = gcc
 myexe: main.o myfunc.o
 	g++ -o myexe myfunc.o main.o
 main.o: main.cpp
